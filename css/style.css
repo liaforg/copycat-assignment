@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  overflow: hidden;
+  height: 800px;
+  max-width: 1000px;
+  min-width: 800px;
+}
+
+img {
+  width: 100%;
+}
+nav {
+  background-color: #3BC293;
+  width: 100%;
+  height: 50px;
+  clear: both;
+}
+
+nav li{
+  display: inline;
+  float: right;
+  list-style: none;
+  padding-left: 20px;
+  font-size: 23px;
+  padding-top: 1%;
+  padding-right: .50%;
+  margin-top: 0;
+}
+
+.wrap{
+  width: 70%;
+  margin: auto;
+}
+
+.catshop {
+float: left;
+color: white;
+font-weight: bold;
+}
+
+.meowsite {
+  width: 90%;
+  margin: auto;
+  background-color: #033E7B;
+}
+
+.meowsite h1{
+  text-align: center;
+  float: right;
+  padding:30px;
+  padding-right: 80px;
+  font-size: 40px;
+  color: white;
+}
+
+.meowsite img {
+  width: 50%;
+}
+
+.cat1 {
+  width: 90%;
+  background-color: #FFDE56;
+  clear: both;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.products{
+  width: 90%;
+  background-color: #DAD5D2;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.products img{
+  width: 30%;
+  display: inline;
+  clear: both
+  padding: 10px;
+}
+
+.products .pic1,  .pic2, .pic3, .pic4, .pic5 {
+  border: solid black 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.fun {
+    width: 90%;
+    background-color: #52859F;
+    clear: both;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+h4 {
+  text-align: center;
+  background-color: #3BC293;
+  width: 100%;
+  height: 35px;
+  padding-top: 1%;
+  bottom: 0;
+  margin: 0;
+}
+
+.fun h2 {
+  text-align: center;
+  padding-left: 20px;
+  color: red;
+  word-spacing: 57px;
+}
